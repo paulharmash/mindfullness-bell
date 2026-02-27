@@ -3,8 +3,8 @@ import sys
 import atexit
 import signal
 from pathlib import Path
-from src import config
-from src import scheduler
+from . import config
+from . import scheduler
 
 # Location for the PID file
 PID_FILE = config.get_config_dir() / "mindfulness-bell.pid"

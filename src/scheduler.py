@@ -2,8 +2,8 @@ import time
 import random
 from datetime import datetime, timedelta
 import logging
-from src import sys_state
-from src import player
+from . import sys_state
+from . import player
 
 # Setup basic logging for debugging (to a file in config later, or syslog)
 logger = logging.getLogger(__name__)

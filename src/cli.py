@@ -1,7 +1,7 @@
 import argparse
 import sys
-from src import daemon
-from src import config
+from . import daemon
+from . import config
 
 def main():
     parser = argparse.ArgumentParser(description="Mindfulness Bell - A silent, resonant hourly companion.")

@@ -2,7 +2,7 @@ import subprocess
 import os
 import sys
 from pathlib import Path
-from src import config
+from . import config
 from typing import Optional
 
 # Note: In a real distribution, we might use pkg_resources or resources
